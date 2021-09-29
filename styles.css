@@ -1,0 +1,98 @@
+}
+body{
+    background-image: url("IMG20201006122556.jpg");
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    color: rgb(22, 22, 22);
+    font-size: 50px;
+    font-family: cursive;
+}
+h3{
+    float: right;
+    margin-right: 200px;
+    font-size: 20px;
+    font-family: cursive;
+}
+.container{
+    background-color: pink;
+    width: 800px;
+    height: 350px;
+    border: 1px solid rgb(119, 171, 240);
+    margin: auto;
+    padding: 5px;
+    overflow: hidden;
+    margin-top: 50px;
+}
+img{
+    float: left;
+    padding: 15px 0 15px 0;
+    margin: 15px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border-top: 7px solid rgb(47, 112, 253);
+    border-bottom: 7px solid rgb(70, 113, 253);
+}
+.clear {
+    clear: left;
+}
+.icon{
+    position: absolute;
+    top: 85%;
+    transform: translateY(-50%);
+    width: 100%;
+    text-align: center;
+}
+.tombol{
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background: #f1f1f1;
+    margin: 20px;
+    border-radius: 30%;
+    box-sizing: 0 5px 15px -5px #00000070;
+    overflow: hidden;
+    position: relative;
+    color: #1295ec;
+}
+.tombol i {
+    transition: 0.2s linear;
+    font-size: 50px;
+    line-height: 90px;
+    color: rgb(50, 110, 240);
+}
+.tombol:hover i{
+    transform: scale(1.3);
+    color: white
+}
+.tombol::before{
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    left: -110px;
+    top: 90%;
+    transform: rotate(45deg);
+    background:rgb(81, 84, 241);
+}
+.tombol:hover::before {
+    left: -10%;
+    top: -10%;
+    animation: mzulwawan0.7s 1;
+}
+@zulkhotimah0103 {
+    0%{
+        left: -110%;
+        top: -90%;
+    }
+   50%{
+        left: -10%;
+        top: -30%;
+    }
+    100%{
+        left: -10%;
+        top: -10%;
+    }
+}</style>
